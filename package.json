@@ -1,0 +1,45 @@
+{
+  "name": "pathfinder-character-sheet",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "Justin Beaudry <beaudry.justin@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/angular/material/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-animate": "^1.4.9",
+    "angular-aria": "^1.4.9",
+    "angular-cache": "^4.5.0",
+    "angular-material": "^1.0.0",
+    "angular-route": "^1.5.0",
+    "bunyan": "^1.7.1",
+    "hapi": "^13.2.1",
+    "hapi-auth-jwt2": "^5.4.1",
+    "hapi-authorization": "^3.0.2",
+    "joi": "^8.0.4",
+    "jsonwebtoken": "^5.7.0",
+    "level": "^1.4.0",
+    "lodash": "^4.6.1",
+    "node-uuid": "^1.4.7"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.9",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6"
+  },
+  "scripts": {
+    "prestart": "npm update",
+    "tests": "karma start ./test/karma.conf.js"
+  }
+}
